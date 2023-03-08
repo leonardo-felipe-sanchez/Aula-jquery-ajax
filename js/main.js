@@ -1,8 +1,8 @@
-
+var cep;
 function consultaCEP(){
 
 //var mean = document.getElementById("mean");
-var cep = document.getElementById("idcep").value;
+ cep = document.getElementById("idcep").value;
 var url = `https://viacep.com.br/ws/${cep}/json/`
 console.log(cep);
 console.log(url);
