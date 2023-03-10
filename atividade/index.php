@@ -5,28 +5,6 @@
     <title>Dev Web 2</title>
     <link rel="stylesheet" type="text/css"  href="./bootstrap/bootstrap-5.1.3-dist/bootstrap-5.1.3-dist/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script>
-    function mudarCorInput() {
-        document.getElementById("nomeID").style.backgroundColor = '#000000';
-    }
-
-    function procurarCidade() {
- let nome = document.getElementById("estadoID").value;
- $.ajax({
- url: "retornaCidades.php",
- type: "POST",
- data: "estado="+nome,
- dataType: "html"
- }).done(function(resposta) {
- console.log(resposta);
- $('#cidadeID').html(resposta);
- }).fail(function(jqXHR, textStatus) {
- console.log("Request failed: " + textStatus);
- }).always(function() {
- console.log("completou");
- });
-}
-    </script>
 <link rel="stylesheet" href="style.css">
 
 </head>
@@ -95,3 +73,4 @@
 </body>
 
 </html>
+    <script src="./js.js"></script>
