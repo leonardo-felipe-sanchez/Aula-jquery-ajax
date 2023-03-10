@@ -27,7 +27,7 @@
  });
 }
     </script>
-
+<link rel="stylesheet" href="style.css">
 
 </head>
 
@@ -38,7 +38,7 @@
             <div class="form-row">
                 <div class="form-group col-md-6">
                     <label for="nomeID">Nome</label>
-                    <input type="text" class="formcontrol" onclick="mudarCorInput()" name="nome" id="nomeID"
+                    <input type="text" class="form-control" onclick="mudarCorInput()" name="nome" id="nomeID"
                         placeholder="Fulano de tal">
                 </div>
                 <div class="form-group col-md-3">
@@ -68,8 +68,8 @@
                         <option value="1225">1225</option>
                         <option value="1225">1226</option>
                         <option value="32212">32212</option>
-                        12
-                        <option value="32213" selected>32213</option>
+                        <option value="32213">32213</option>
+                        <option value="32213" selected>1228</option>
                     </select>
                 </div>
             </div>

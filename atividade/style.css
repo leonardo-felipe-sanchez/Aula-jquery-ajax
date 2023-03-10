@@ -1,0 +1,26 @@
+
+body{
+    font-family: Calibri, 'Trebuchet MS', sans-serif
+}
+
+h1{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+button{
+    margin-left: 15px;
+}
+
+label{
+    color: #555;
+}
+
+.form-row{
+    display: flex;
+}
+
+.form-group{
+    margin: 0 0 15px 15px;
+}
